@@ -1,0 +1,22 @@
+Neos:
+  Flow:
+    mvc:
+      routes:
+        'Neos.Neos':
+          variables:
+            defaultUriSuffix: ''
+  Neos:
+    eventLog:
+      enabled: TRUE
+    userInterface:
+      translation:
+        autoInclude:
+          Raw.Site:
+            - Main
+            - 'NodeTypes/*'
+      defaultLanguage: 'de'
+    nodeTypes:
+      groups:
+        contentBlocks:
+          position: 110
+          label: Raw.Site:Main:nodeTypes.groups.contentBlocks

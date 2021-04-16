@@ -1,0 +1,11 @@
+NeosRulez:
+  Bootstrap:
+    headerLogoPath: 'Images/Logo.svg'
+    # headerLogoPackage: 'Raw.Site'
+    # headerLogoAltText: 'Raw.Site'
+    navbarAlignment: 'right'
+    navbarFluid: false
+    navbarSticky: true
+    navbarBackground: 'bg-white'
+    navbarBreakpoint: 'lg'
+    navbarHover: true

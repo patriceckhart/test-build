@@ -1,0 +1,43 @@
+{
+    "name": "raw/site",
+    "description": "Neos CMS Website",
+    "type": "neos-site",
+    "require": {
+        "neos/neos": "~7.0.0",
+        "neos/site-kickstarter": "~7.0.0",
+        "neos/nodetypes": "^7.0",
+        "neos/seo": "*",
+        "neos/setup": "^5.0",
+        "neos/neos-setup": "^1.1",
+        "neos/redirecthandler-neosadapter": "*",
+        "neos/redirecthandler-databasestorage": "*",
+        "neos/redirecthandler-ui": "*",
+        "neos/neos-ui": "^7.0",
+        "neos/neos-ui-compiled": "*",
+        "moc/notfound": "*",
+        "neos/swiftmailer": "*",
+        "flownative/neos-compressor": "*",
+        "neosrulez/bootstrap": "^3.3",
+        "neosrulez/slickcarousel": "^2.1",
+        "dl/assetsource-pexels": "^1.5",
+        "shel/neos-hyphens": "*",
+        "neos/fusion-form": "^1.0",
+        "neosrulez/folder": "^1.0",
+        "neosrulez/category": "^1.0",
+        "neosrulez/react-cookieoptin": "^1.0",
+        "neosrulez/dynamicresources": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Raw\\Site\\": "Classes/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "7.0.x-dev"
+        },
+        "neos": {
+            "package-key": "Raw.Site"
+        }
+    }
+}
