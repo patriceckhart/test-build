@@ -1,10 +1,7 @@
 language: php
 php:
-- 7.4
-jobs:
-  include:
-  - php: 7.4
-    env: KEY=VALUE
-  allow_failures:
-  - php: 7.4
-    env: KEY=VALUE
+  - 7.4
+
+before_script:
+  - composer self-update
+  - composer install --prefer-source --no-interaction --dev
